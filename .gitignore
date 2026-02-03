@@ -1,0 +1,38 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Results and outputs
+results/*.csv
+results/*.rds
+results/*.json
+!results/.gitkeep
+
+# API keys and secrets
+.env
+.Renviron
+*_key.txt
+
+# Temporary files
+*.tmp
+*.log
+*~
+.DS_Store
+
+# Python (if added later)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.ipynb_checkpoints
+
+# Data processing temp files
+*.rds.tmp
+*.csv.tmp
+
+# OS
+Thumbs.db
+.directory
