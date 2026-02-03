@@ -132,7 +132,7 @@ multiturn_results <- run_multiturn_evaluation(
 source('code/multiturn/goal_multiturn_personalized_plus.R')
 
 # Load user profiles
-profiles <- fromJSON('path/to/personas.json')
+profiles <- fromJSON('personas/all_personas_first_person.json')
 
 # Run Personalized+ evaluation
 personalized_plus_results <- run_personalized_plus_evaluation(

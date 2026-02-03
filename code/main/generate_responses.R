@@ -17,7 +17,7 @@ library(httr)
 scenarios <- read.csv('data/goal_preference_scenarios.csv', stringsAsFactors = FALSE)
 
 # Load personas (optional - for personalized condition)
-# personas <- fromJSON("data/personas.json")
+# personas <- fromJSON("personas/all_personas_first_person.json")
 
 #-------------------------------------------------------------------------------
 # API Configuration

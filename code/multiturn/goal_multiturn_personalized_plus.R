@@ -575,7 +575,7 @@ run_personalized_plus_evaluation <- function(scenarios, profiles, model,
 
 # # Load data
 # scenarios <- read.csv('data/goal_preference_scenarios.csv')
-# profiles <- fromJSON('path/to/personas.json')
+# profiles <- fromJSON('personas/all_personas_first_person.json')
 #
 # # Run evaluation
 # results <- run_personalized_plus_evaluation(
